@@ -7,8 +7,8 @@
         "type": "separator",
         "title": "Menü"
     },
-    "tencere": {
-        "title": "Tencere"
+    "dersnotları": {
+        "title": "Ders Notları"
     },
     
         
@@ -23,9 +23,9 @@
         
 
     "contact": {
-        "title": "Main Page ↗",
+        "title": "Viki versiyon ↗",
         "type": "page",
-        "href": "https://tencere.feign-wiki.tk/",
-        "newWindow": true
+        "href": "https://vikibrawl.miraheze.org/wiki/Notlarım/",
+        "newWindow": false
     }
 }
