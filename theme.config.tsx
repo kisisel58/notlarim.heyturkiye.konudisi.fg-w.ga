@@ -17,8 +17,8 @@ const config: DocsThemeConfig = {
             openGraph: {
                 type: 'website',
                 locale: 'en_IE',
-                url: 'https://github.com/kisisel58/notlarim.heyturkiye.konudisi.fg-w.ga/',
-                site_name: 'Notlarım'
+                url: 'https://notlarim.heyturkiye.konudisi.fg-w.ga',
+                site_name: 'Notlarım',
         }
         }
     },
