@@ -3,23 +3,23 @@ import { DocsThemeConfig } from 'nextra-theme-docs'
 import Head from 'next/head';
 
 const config: DocsThemeConfig = {
-    logo: <span style={{ fontSize: "24px" }}><strong>Tencere</strong> (Test yapıyoruz) </span>,
+    logo: <span style={{ fontSize: "24px" }}><strong>HeyTürkiye'nin</strong> Ders notları</span>,
     project: {
-        link: 'https://tencere.feign-wiki.tk/',
+        link: 'https://github.com/kisisel58/notlarim.heyturkiye.konudisi.fg-w.ga/',
     },
     chat: {
-        link: 'https://tencere.feign-wiki.tk/',
+        link: 'https://discord.gg/feedback',
     },
-    docsRepositoryBase: 'https://tencere.feign-wiki.tk/',
+    docsRepositoryBase: 'https://github.com/kisisel58/notlarim.heyturkiye.konudisi.fg-w.ga/',
     useNextSeoProps() {
         return {
-            titleTemplate: '%s - Tencere',
+            titleTemplate: '%s - Notlarım,
             openGraph: {
                 type: 'website',
                 locale: 'en_IE',
-                url: 'https://tencere.feign-wiki.tk',
-                site_name: 'Tencere',
-            }
+                url: 'https://github.com/kisisel58/notlarim.heyturkiye.konudisi.fg-w.ga/',
+                site_name: 'Notlarım'
+        }
         }
     },
     head: (
@@ -42,7 +42,7 @@ const config: DocsThemeConfig = {
         component: <></>
     },
     i18n: [
-        { locale: 'en', text: 'Tencere' }
+        { locale: 'tr', text: 'Türkçe' }
     ]
 }
 
