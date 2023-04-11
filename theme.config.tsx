@@ -13,7 +13,7 @@ const config: DocsThemeConfig = {
     docsRepositoryBase: 'https://github.com/kisisel58/notlarim.heyturkiye.konudisi.fg-w.ga/',
     useNextSeoProps() {
         return {
-            titleTemplate: '%s - Notlarım,
+            titleTemplate: '%s - Notlarım',
             openGraph: {
                 type: 'website',
                 locale: 'en_IE',
